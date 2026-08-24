@@ -7,12 +7,39 @@
     
 </head>
 <body>
-    <!-- <script src="let&const.js"> </script>-->
+    <script>
+        console.log("Hello");
+        // var a = 1000;
+        {var o = "Animesh";}
+        console.log(o);
+
+        function a(){
+            function b(){
+                function c(){
+                    console.log("function c");
+                    function d(){
+                        console.log("function d inside c");
+                    }
+                    d();
+                }
+                c();
+
+            }
+            function d(){
+                console.log("function D");
+            }
+            d();
+            b();
+        }
+        a();
+
+    </script>
+    <!-- <script src="let&const.js"> </script> -->
     <!-- <script src="arrowFunctions.js"></script> -->
     <!-- <script src="closures.js"></script> -->
     <!-- <script src="functionTypes.js"></script> -->
 
-    <button id="clickMe">Click Me</button>
-    <script src="callbackFunction.js"></script>
+    <!-- <button id="clickMe">Click Me</button>
+    <script src="callbackFunction.js"></script> -->
 </body>
 </html>

@@ -1,8 +1,12 @@
-console.log(b)
+// console.log(b)
 
-let a = 10
+let a = "Manmath"
+
+{var a = 10
+    console.log(a)
+}
+
 console.log(a)
-
 var b = 100
 
 const c = 3.14

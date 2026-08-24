@@ -67,3 +67,7 @@ function testN(a,b){
 
 testN(10,20)
 // test(10,20)// give error uncaught reference
+
+const a = function (){
+    
+}

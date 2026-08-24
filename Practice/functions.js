@@ -97,4 +97,47 @@ function j(i){
 }
 myMap([3,5,7,9,11,13],j)
 
+// Q.16
+function myFilter(i,j){
+    return j(i);
+}
+function j(i){
+    const output = []
+    for(let c = 0; c<i.length; c++){
+        
+        if(i[c]%2 === 1) output.push(i[c]);
+    }
+    return output;
+}
+
+console.log(myFilter([1,2,3,4,5,15,60,45,21],j));
+
+//Q.17
+var count = 0;
+function counter(){
+    return ++count;
+}
+console.log(counter());
+console.log(counter());
+console.log(counter());
+console.log(counter());
+
+//Q.18
+function counte() {
+  let count = 0; 
+
+  return function() {
+    count++; 
+    return count;
+  };
+}
+
+let counter1 = counte();
+let counter2 = counte();
+
+console.log(counter1()); // 1
+console.log(counter1()); // 2
+
+console.log(counter2()); // 1
+console.log(counter2()); // 2   
 

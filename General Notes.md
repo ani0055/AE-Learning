@@ -24,4 +24,19 @@ b. case sensitive
 -> Arethrmatic basic +, -, *, /, %, ** (to power), ++, --.
 -> Comparision ==, !=, === (checks value and the type), !==, >, <, >=, <=.
 -> Logocal &&, ||, !
--> BitWise &, |, ^(XOR), ~(NOT), <<(left shift), >>(right shift).   
+-> BitWise &, |, ^(XOR), ~(NOT), <<(left shift), >>(right shift).
+
+
+7. for in loop
+-> A while statement in JavaScript creates a loop that executes a block of code repeatedly, as long as the specified condition is true
+-> Syntax:
+    for (variableName in object) {
+    statement or block to execute
+    }
+
+8. for of loop
+-> The for...of loop in JavaScript is used to traverse elements of the iterable object.
+-> Syntax:
+    for (element of iterable) { 
+        // loop body
+    }
