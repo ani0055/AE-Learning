@@ -40,3 +40,6 @@ b. case sensitive
     for (element of iterable) { 
         // loop body
     }
+9. fetch()
+-> The global fetch() method takes a URL as its primary argument and returns a Promise that resolves to a Response object.
+-> fetch() => Response.json() => jsonValue

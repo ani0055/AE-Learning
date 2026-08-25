@@ -44,3 +44,4 @@ It works by continuously monitoring the call stack (which processes synchronous 
 // EventLoop only sends a function in to the class stack when it is empty.
 // Before the CallBAck Queue the priority is given to the microtask queue(list the functions which comes from promises or mutation observer)
 
+// Macrotask queue 
