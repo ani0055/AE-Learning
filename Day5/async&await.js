@@ -66,3 +66,20 @@ async function handlePromise1(){
 }
 
 handlePromise1();
+
+// Example of await working
+console.log("1");
+
+setTimeout(() => console.log("2"), 0);        // macrotask
+
+async function run() {
+  console.log("3");
+  const result = await Promise.resolve();     // suspends here
+  console.log("5");                           // microtask — resumes later
+}
+
+run();
+console.log("4");
+
+// Output order:
+// 1 → 3 → 4 → 5 → 2

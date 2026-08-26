@@ -55,4 +55,4 @@ function validateCart(cart){
 // Event Handler
 // Modules
 
-// drawback of 
+// drawback of promise is that we can't control the sequence of execution and which one to ignore.
