@@ -37,7 +37,7 @@ const diameter = function (radius){
     return 2*radius;
 }
 
-Array.prototype.calculate = function (logic){ // by usong the Array.prototype we get to use calculate as an inbuilt function
+Array.prototype.calculate = function (logic){ // by using the Array.prototype we get to use calculate as an inbuilt function
     const output = [];
     for(let i = 0; i<this.length ; i++){ // this points to the Array we will be implementing function on
         output.push(logic(this[i]));

@@ -118,3 +118,6 @@ Even imported by 10 files → executed once → everyone shares the same instanc
 -> Imports are live views of the exported variable, not snapshots:
 -> Import/export statements must be at the top level — they can't be inside if blocks or functions:
 
+14. var vs. let
+-> var is function-scoped (or globally scoped).  There is only one single variable i shared across all iterations of the loop.
+-> let is block-scoped.  JavaScript creates a new, unique binding of i for each iteration of the loop.

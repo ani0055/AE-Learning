@@ -1,4 +1,4 @@
-// Issues are because setTimeout will only execute agter the callstack is empty so if there are functions in the callstack while the setTimeouts time is excausted it will have to wait until the stack in empty
+// Issues are because setTimeout will only execute after the callstack is empty so if there are functions in the callstack while the setTimeouts time is excausted it will have to wait until the stack in empty
 console.log("Start");
 
 

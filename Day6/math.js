@@ -1,5 +1,6 @@
 const PI = 3.14
 const g = 9.8
+export var a = 45
 
 function add(a, b){
     return a+b;
