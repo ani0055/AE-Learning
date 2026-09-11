@@ -22,5 +22,12 @@ export function toPower(a, b){ //named exports
     return a ** b;
 }
 
+export function changeValue(A){
+    a = A;
+    return a;
+}
+
+console.log(a)
+
 export { add, multiply, PI };
 
